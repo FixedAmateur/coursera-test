@@ -1,0 +1,27 @@
+HTML tags
+<element_name> content </element_name>
+opening tag             closing tag
+
+<p id="myId"></p> 
+<p onclick="alert('hi')"></p>
+
+a tag has no content:
+<p/>
+
+ALWAYS ADD <!doctype html> to the head of the code
+
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>VJP</title>
+        <h2>cook</h2>
+    </head>
+    <body>
+        <h1>cool</h1>
+    </body>
+
+</html>
+
+
