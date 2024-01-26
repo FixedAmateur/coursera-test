@@ -1,0 +1,38 @@
+creating links
+
+
+a tags are both flow and block-level content
+
+<a href="something.html" title="same dir link">
+	linking to the same file in the same directory
+</a>
+=> inline tag
+
+<a href="something.html" title="same dir link">
+	<div>
+		linking to the same file in the same directory
+	</div>
+</a>
+
+
+<a href="something.html" target="_blank" title="same dir link">
+	<div>
+		linking to the same file in the same directory
+	</div>
+</a>
+_blank target forces to open the link on a different website
+
+
+links to something on the page
+<section>
+	<ul>
+	<li><a href="#section1">#section 1<li>
+	<li><a href="#section1">#section 2<li>
+	<ul>
+<section>
+<section id="section1">
+	section 1 content 
+<section>
+<section id="section2">
+	section 2 content
+<section>

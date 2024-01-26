@@ -25,3 +25,15 @@ ALWAYS ADD <!doctype html> to the head of the code
 </html>
 
 
+block-level element
+- render to begin on a new line (by default)
+- may contain inline or other block-level elements
+- roughly flow content (html5 category)
+ex: <div></div>
+
+inline element
+- render on the same line
+- may contain other inline elements
+- roughly phrasing content (html5 category)
+ex: <span></span>
+

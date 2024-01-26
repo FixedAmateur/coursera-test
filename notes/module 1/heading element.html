@@ -7,47 +7,15 @@
 	<header>
 		contains some header info. usually consist of company logi, some tag lines,... naviagion is contained sometimes as well.
 		<nav> (short for navigation) usually contains links to different part of the web. 
-            <ol class="highlight">
+            <ol>
                 <li><a href="#section1">section 1</a></li>
                 <li><a href="#section2">section 2</a></li>
             </ol>
         </nav>
     </header>
 	<h1>some most important stuff, such as main heading of the page</h1>
-    
-    <style>
-        body, header, footer {
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-        }
-        h1 {
-            color: blue;
-            width: 200px;
-            text-align: center;
-        }
-        .section1 {
-            color: violet;
-        }
-        section.section1 {
-            font-size: 25px;
-
-        }
-        #section1 {
-            color: red;
-        }
-        .highlight {
-            background-color: greenyellow;
-        }
-    </style>
-     <!--
-        every h1 tags will be affected by h1 seclector
-        every tags that has section1 class is affected by .section1 seclector
-        every tags with id section1 is affected by #section1 seclector
-        tags can be grouped
-        every section1 in section is affected by section.section1 selector
-    -->
-    
     <img src="Kitagawa_My_Dress_Up_Darling_cpp.avif" width="400" height="200" alt="Picture from local pc">
-    <section id = "section1" class="section1">
+    <section id = "section1">
 		section 1
 		<article> article 1.1</article>
 		<article> article 1.2</article>
@@ -60,7 +28,7 @@
 	</section>
     <section id = "section2">
         list 2
-        <ul class="section1">
+        <ul>
             <li>part 2.1</li>
 		    <li>part 2.2</li>
         </ul>

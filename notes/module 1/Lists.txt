@@ -1,0 +1,23 @@
+Lists
+
+unordered list
+<ul>
+	<li>element 1</li>
+	<li>element 2</li>
+	<ul>
+		<li>element 1.1</li>
+		<li>element 1.2</li>
+	</ul>
+<ul>
+the only thing that can be contained in ul is li and ul, not text
+
+ordered list
+<ol>
+	<li>element 1</li>
+	<li>element 2</li>
+	<ol>
+		<li>element 1.1</li>
+		<li>element 1.2</li>
+	</ol>
+<ol>
+like unordered list, nut add up number start from 1 as order

@@ -1,0 +1,12 @@
+character entity references
+
+help avoid rendering issues
+provide characters not available on keyboard
+
+
+to not causing error
+instead of < , use &lt;
+instead of > , use &gt;
+instead of & , use &amp;
+
+&nbsp; can group the words together while user scaling the website window

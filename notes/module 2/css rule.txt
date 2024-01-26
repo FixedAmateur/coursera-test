@@ -1,0 +1,11 @@
+p {
+	color: blue;
+	font-size: 30px;
+	text-align: center;
+	width: 200px;	
+}
+
+
+p is selector, which is the tag
+color is property, which is predefined by CSS specification, and for every property there is a set number of pre-defined values. Or in the case of numerical values, set number of type of numerical values that is pre-defined
+blue is value, it can be a numeric value but blue is a predefined one.

@@ -1,0 +1,7 @@
+<img src="file_name.extension" width="..." height="..." alt="comment abt img">
+
+<img src="https://linkToTheImg.com" width="..." height="..." alt="comment abt img">
+
+these are inline tags
+
+because the browser dont know how large the image is, specifying the size of it is need for speed

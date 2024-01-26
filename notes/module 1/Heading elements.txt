@@ -1,0 +1,26 @@
+Heading elements
+<h1>...</h1>
+<h2>...</h2>
+
+can be use to structurize which content is more important. above, h1 is more important than h2
+
+<head>
+	meta charset="utf-8">
+	<title> appear on the scroll bar </title>
+</head>
+<body>
+	<header>
+		contains some header info. usually consist of company logi, some tag lines,... naviagion is contained sometimes as well.
+		<nav> (short for navigation) usually contains links to different part of the web. </nav>
+	/header>
+	<h1>some most important stuff, such as main heading of the page</h2>
+	<section>
+		section 1
+		<article>article 1</article>
+		<article>article 2</article>
+	</section>
+	<aside>some info relate to the main topic. i.e. , related posts</aside>
+</body>
+<footer>
+	contain some footer infor
+</footer>
